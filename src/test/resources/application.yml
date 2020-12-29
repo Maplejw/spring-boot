@@ -1,0 +1,17 @@
+igg:
+  es:
+    cluster-name: elasticsearchDev
+    cluster-nodes: 10.0.3.234:9393
+  db:
+    druid:
+      driverClassName: org.h2.Driver
+      password: ss
+      url: jdbc:h2:file:~/.h2/testdb
+      username: sa
+      shardTable: true
+  redis:
+    host: 10.0.3.163:7000,10.0.3.164:7000
+spring:
+  datasource:
+    schema: classpath:db/schema.sql
+

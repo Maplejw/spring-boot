@@ -1,0 +1,9 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.igg.boot.framework.autoconfigure.IggMVCConfiguration,\
+com.igg.boot.framework.autoconfigure.db.DBDefaultAutoconfiguration,\
+com.igg.boot.framework.autoconfigure.db.DBDynamicAutoconfiguration,\
+com.igg.boot.framework.autoconfigure.db.DynamicDatasourceAspect,\
+com.igg.boot.framework.autoconfigure.db.DBTransactionAutoconfiguration,\
+com.igg.boot.framework.redis.RedisAutoconfiguration,\
+com.igg.boot.framework.autoconfigure.es.ElasticsearchAutoconfiguration,\
+com.igg.boot.framework.apollo.ApolloAutoConfiguration
